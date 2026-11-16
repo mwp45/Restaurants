@@ -19,6 +19,50 @@
     @keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
     @media(max-width:850px){.hero{grid-template-columns:1fr;gap:24px;padding-top:52px}.hero-aside{border-left:0;border-top:1px solid var(--line);padding:18px 0 0}.restaurant-tabs{grid-template-columns:repeat(2,1fr)}.menu-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:580px){.shell{padding:0 17px}.topbar{padding:18px 0}.top-note{display:none}.hero{padding:43px 0 22px}.hero h1{font-size:48px}.controls{padding:14px}.person-picker{align-items:stretch;flex-direction:column;gap:9px}.person-select{width:100%;min-width:0}.report-button{margin-left:0}.restaurant-tabs{grid-template-columns:1fr}.restaurant-tab{font-size:14px;padding:9px 8px}.choice-select{width:112px}.toolbar{align-items:stretch;flex-direction:column}.search{max-width:none}.restaurant-info{align-items:flex-start;flex-direction:column;margin-top:31px}.restaurant-info h2{font-size:31px}.category-row{align-items:flex-start;flex-direction:column}.menu-grid{grid-template-columns:1fr;padding-bottom:42px}.dish{min-height:140px}.footer{flex-direction:column}}
+    /* Refined Wasatch finish */
+    :root{--ink:#252b24;--muted:#6f746b;--paper:#f4f0e6;--card:#fffdf9;--line:#e1d9c9;--green:#315744;--green2:#213f30;--gold:#b9874d;--shadow:0 18px 48px rgba(55,49,36,.085)}
+    body{background:radial-gradient(ellipse at 13% 2%,rgba(185,135,77,.075),transparent 31rem),var(--paper)}
+    .shell{max-width:1220px}
+    .topbar{border-bottom-color:#d9d0bf;padding-top:22px}
+    .brand{gap:12px;font-size:21px}
+    .brand-mark{height:38px;width:38px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.28),0 0 0 1px rgba(185,135,77,.42)}
+    .top-note{color:#786b55;letter-spacing:.12em}
+    .hero{padding-top:76px}
+    .eyebrow{color:#8d683c;letter-spacing:.19em}
+    .hero h1{color:#25382d;line-height:.98}
+    .hero-aside{border-left-color:#c8ad83}
+    .hero-aside strong{color:var(--green2)}
+    .controls,.report-panel{border-color:#e4dccd;border-radius:20px;background:rgba(255,253,249,.94);box-shadow:0 20px 55px rgba(55,49,36,.075),0 2px 8px rgba(55,49,36,.025)}
+    .controls{padding:22px}
+    .person-picker{border-bottom-color:#e7dfd1}
+    .person-select{border-color:#d9cfbc;background:#fffefa}
+    .person-select:focus,.choice-select:focus,.search input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(185,135,77,.13)}
+    .restaurant-option{border-color:#e6dece;background:#fffefa;border-radius:14px;padding:6px;transition:border-color .2s,box-shadow .2s,transform .2s}
+    .restaurant-option:has(.restaurant-tab.active){border-color:#bd9a6a;box-shadow:0 5px 16px rgba(65,60,43,.075),inset 0 0 0 1px rgba(185,135,77,.14)}
+    .restaurant-tab{border-radius:10px;padding:12px 12px;font-size:16px}
+    .restaurant-tab.active{background:linear-gradient(135deg,#365f49,#294a38);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
+    .restaurant-tab.active:before{content:"";display:inline-block;width:6px;height:6px;margin:0 7px 2px 0;border-radius:50%;background:#d8b47e}
+    .choice-select{border-color:#ddd3c1;background:#fffefa;color:#345342;min-height:40px}
+    .report-button{background:linear-gradient(135deg,#365f49,#294a38);border-color:#315744;border-radius:10px;box-shadow:0 5px 12px rgba(33,63,48,.12);transition:transform .18s,box-shadow .18s}
+    .report-button:hover{background:var(--green2);transform:translateY(-1px);box-shadow:0 8px 16px rgba(33,63,48,.18)}
+    .report-panel{border-top:3px solid var(--gold)}
+    .report-table th{background:#315744;color:#fff9ef;letter-spacing:.12em}
+    .report-table th:first-child{border-radius:8px 0 0 0}
+    .report-table th:last-child{border-radius:0 8px 0 0}
+    .report-table td{border-bottom-color:#e8e0d2}
+    .report-table tbody tr:nth-child(even){background:#faf7f0}
+    .report-table td:first-child{color:#294a38}
+    .restaurant-info{margin-top:43px}
+    .restaurant-info h2{color:#273d30}
+    .source-link{color:#765a36;border-bottom-color:#c7aa7f}
+    .meal-tab.active,.filter-chip.active{border-color:#c29a64;background:#f0e8d9;color:#34513e}
+    .dish{border-color:#e7dfd1;border-radius:17px;background:rgba(255,253,249,.96);box-shadow:0 8px 24px rgba(55,49,36,.035)}
+    .dish:hover{border-color:#cdb48f;box-shadow:0 18px 42px rgba(55,49,36,.11)}
+    .dish h3{color:#283b30}
+    .price{color:#856139}
+    .tag{color:#765b39;background:#f2eadc}
+    .footer{border-top-color:#d9d0bf}
+    @media(max-width:580px){.hero{padding-top:50px}.controls{padding:16px}.restaurant-tab{padding:11px 10px}}
   </style>
 </head>
 <body>
